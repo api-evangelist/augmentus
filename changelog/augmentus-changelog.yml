@@ -1,0 +1,38 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.augmentus.tech/release-notes
+scheme: semver
+product: Augmentus (no-code adaptive robotics platform)
+current_version: 3.1.0
+notes: >-
+  Augmentus publishes dated product release notes for its no-code robot
+  programming software (not a public web API). Recent versions captured below;
+  only 3.1.0 carries a confirmed publish date from the release page.
+entries:
+  - version: 3.1.0
+    date: '2026-07-07'
+    url: https://www.augmentus.tech/release-note/version-3-1-0/
+    breaking: false
+    highlights:
+      - Rotary Scan — full 360 point cloud and mesh from a single scan module
+      - Path Optimizer V2 with parallel robot-configuration evaluation and heatmap UI
+      - Custom Colliders from primitive shapes and imported CAD
+      - Concurrent Positioner for independent external-axis motion
+      - Connector Module to join separate paths into continuous motion
+      - Techman robot compatibility and curved-surface algorithm support
+  - version: 3.0.0
+    date: null
+    url: https://www.augmentus.tech/release-note/3-0-0/
+    breaking: false
+    highlights:
+      - One-click toolpath generation
+      - Vision-guided adaptive robotics
+  - version: 2.8.5
+    date: null
+    url: https://www.augmentus.tech/release-note/2-8-5/
+  - version: 2.8.1
+    date: null
+    url: https://www.augmentus.tech/release-note/2-8-1/
+  - version: 2.8.0
+    date: null
+    url: https://www.augmentus.tech/release-note/2-8-0/

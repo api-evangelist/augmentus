@@ -1,9 +1,30 @@
 aid: augmentus
 name: Augmentus
-description: 'Augmentus is a company surfaced as a portfolio company of sierra-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: robotics. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  Augmentus is a no-code adaptive robotics company (founded 2019, offices in
+  Singapore and Pflugerville, Texas) that turns industrial robots into AI-driven
+  automation systems programmable without code or a teach pendant. Its platform
+  pairs 3D scanning and computer vision with AI motion planning to auto-generate
+  robot toolpaths for welding, surface finishing, spraying, sandblasting,
+  sanding, and material removal across ABB, FANUC, KUKA, Yaskawa, Kawasaki,
+  Universal Robots, and Techman arms — cutting process automation from weeks to
+  minutes. Sold as Standard (CAD-based toolpaths) and Pro (vision-guided) tiers.
+  Surfaced as a portfolio company of sierra-ventures; profiled here from public
+  sources. Augmentus ships a desktop/on-prem product rather than a public web
+  API, so this profile is identity-and-presence oriented.
 url: https://raw.githubusercontent.com/api-evangelist/augmentus/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.augmentus.tech/wp-content/uploads/2024/12/Augmentus-logo-x2.webp
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Robotics
+- Industrial Automation
+- No-Code
+- Manufacturing
+- Robot Programming
+- Computer Vision
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +51,33 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://augmentus.tech/
+  url: https://www.augmentus.tech/
+- type: Documentation
+  url: https://guide.augmentus.tech/docs
+- type: Support
+  url: https://augmentus.atlassian.net/servicedesk/customer/portal/2
+- type: Blog
+  url: https://www.augmentus.tech/category/blogs/
+- type: Pricing
+  url: https://www.augmentus.tech/pricing/
+- type: SignUp
+  url: https://account.augmentus.tech/register
+- type: Login
+  url: https://account.augmentus.tech/login
+- type: TermsOfService
+  url: https://www.augmentus.tech/legal/
+- type: PrivacyPolicy
+  url: https://www.augmentus.tech/legal/
+- type: ChangeLog
+  url: https://www.augmentus.tech/release-notes
+- type: ChangeLog
+  url: changelog/augmentus-changelog.yml
+- type: LLMsTxt
+  url: llms/augmentus-llms.txt
+- type: DomainSecurity
+  url: security/augmentus-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

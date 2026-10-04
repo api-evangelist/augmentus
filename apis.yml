@@ -52,7 +52,7 @@ tags:
 - No-Code
 - Manufacturing
 - Robot Programming
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 tags_raw:
 - Company
@@ -63,6 +63,7 @@ tags_raw:
 - Robot Programming
 - Computer Vision
 - Artificial Intelligence
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane

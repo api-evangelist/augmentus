@@ -1,0 +1,36 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.augmentus.tech/pricing/
+sources:
+- https://www.augmentus.tech/pricing/
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: negotiated
+delivery:
+  delivery: managed+licensed
+  method: page
+  read: '2026-10-07'
+  evidence: On-prem, air-gapped deployment is available as an option on Pro.
+published: false
+note: No numeric prices; only a free 14-day trial and Contact Sales for Standard and Pro. On-prem, air-gapped
+  deployment available as option on Pro (licensed).
+plan_count: 3
+plans:
+- name: Trial
+  price_text: Free 14 days
+  period: none
+  included_quota: Program and simulate against your own parts; no robot program output or deployment
+- name: Standard
+  price_text: Contact Sales
+  period: none
+  included_quota: AutoGen toolpath generation, offline simulation, CAD input, Path Optimizer Global, robot
+    script output
+- name: Pro
+  price_text: Contact Sales →
+  period: none
+  included_quota: Everything in Standard plus 3D vision, scanning, AutoAlign, inline inspection, ML defect
+    detection

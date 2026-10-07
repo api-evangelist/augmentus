@@ -71,6 +71,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Plans
+  url: plans/augmentus-plans-pricing.yml
 - url: https://wp-legacy.augmentus.tech/feed/
   type: BlogRSS
 - type: Website
